@@ -4,6 +4,7 @@ import Container from "react-bootstrap/esm/Container";
 import Row from "react-bootstrap/esm/Row";
 import Dropdown from "react-bootstrap/Dropdown";
 import Button from "react-bootstrap/Button";
+import Form from "react-bootstrap/Form";
 
 class AccountMain extends Component {
   render() {
@@ -19,7 +20,7 @@ class AccountMain extends Component {
             <Col className="col-3">
               <img className="img-fluid" src="/assets/images/avatar.png" alt="User avatar" />
             </Col>
-            <Col className="col-8">
+            <Col className="col-9">
               <div className="py-3 border-bottom border-1 border-dark">
                 <h6 className="text-light fw-normal bg-secondary py-2 px-2">Strive Student</h6>
                 <p className="text-light text-opacity-75 mb-1">Language:</p>
@@ -52,30 +53,24 @@ class AccountMain extends Component {
               </div>
               <div className="pt-3">
                 <p className="text-light text-opacity-75 mb-1">Autoplay controls</p>
-                <div className="d-flex gap-2 align-items-center">
-                  <Button
-                    size="sm"
-                    variant="outline-light"
-                    className="footer-button rounded-0 py-0 px-2 d-flex justify-content-center align-items-center"
-                    style={{ height: "2em", width: "2em" }}
-                  >
-                    <i className="bi bi-check fs-3 text-secondary "></i>
-                  </Button>
-
-                  <small className="text-light fw-light">Autoplay next episode in a series on all devices.</small>
-                </div>
-                <div className="d-flex gap-2 align-items-center">
-                  <Button
-                    size="sm"
-                    variant="outline-light"
-                    className="footer-button rounded-0 py-0 px-2 d-flex justify-content-center align-items-center"
-                    style={{ height: "2em", width: "2em" }}
-                  >
-                    <i className="bi bi-check fs-3 text-secondary "></i>
-                  </Button>
-
-                  <small className="text-light fw-light">Autoplay next episode in a series on all devices.</small>
-                </div>
+                <Form>
+                  <Form.Check type="checkbox" className="d-flex gap-1 align-items-center">
+                    <Form.Check.Input
+                      type="checkbox"
+                      className="bg-transparent rounded-0 text-secondary border-secondary"
+                      style={{ width: "1.5em", height: "1.5em" }}
+                    />
+                    <Form.Check.Label className="small text-light fw-light">Autoplay next episode in a series on all devices.</Form.Check.Label>
+                  </Form.Check>
+                  <Form.Check type="checkbox" className="d-flex gap-1 align-items-center">
+                    <Form.Check.Input
+                      type="checkbox"
+                      className="bg-transparent rounded-0 text-secondary border-secondary"
+                      style={{ width: "1.5em", height: "1.5em" }}
+                    />
+                    <Form.Check.Label className="small text-light fw-light">Autoplay next episode in a series on all devices.</Form.Check.Label>
+                  </Form.Check>
+                </Form>
               </div>
             </Col>
           </Row>
