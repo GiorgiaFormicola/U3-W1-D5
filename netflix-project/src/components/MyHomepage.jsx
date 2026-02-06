@@ -40,9 +40,9 @@ class MyHomepage extends Component {
           </Row>
         </Container>
         <Container fluid={true} className="px-4">
-          <FilmsSection></FilmsSection>
-          <FilmsSection></FilmsSection>
-          <FilmsSection></FilmsSection>
+          <FilmsSection searchString="Star Wars"></FilmsSection>
+          <FilmsSection searchString="Harry Potter"></FilmsSection>
+          <FilmsSection searchString="Lord Of The Rings"></FilmsSection>
         </Container>
       </>
     );

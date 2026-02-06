@@ -5,7 +5,7 @@ class SingleFilm extends Component {
   render() {
     return (
       <Col className="text-center mb-2 px-1">
-        <img class="img-fluid" src="/assets/images/2.png" alt="movie picture" />
+        <img className="img-fluid" src={this.props.filmSrc} alt={this.props.filmTitle} />
       </Col>
     );
   }
