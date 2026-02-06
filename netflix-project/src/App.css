@@ -25,6 +25,11 @@ footer {
   color: #f5f5f1;
   font-size: 0.8em;
 }
+/* HERO */
+.hero-icons {
+  margin-left: 0.8em;
+  margin-right: 0.8em;
+}
 
 /* FOOTER */
 .footer-icon {
