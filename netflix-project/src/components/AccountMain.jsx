@@ -46,19 +46,33 @@ class AccountMain extends Component {
                 <small className="d-block text-light fw-light">
                   Show titles of <span className="fw-medium">all maturity ratings</span> for this profile
                 </small>
-                <Button size="sm" variant="outline-secondary" className="footer-button rounded-0 mt-3 px-4 py-1">
+                <Button size="sm" variant="outline-light" className="footer-button rounded-0 mt-3 px-4 py-1">
                   <small>EDIT</small>
                 </Button>
               </div>
               <div className="pt-3">
                 <p className="text-light text-opacity-75 mb-1">Autoplay controls</p>
                 <div className="d-flex gap-2 align-items-center">
-                  <i className="bi bi-check fs-3 text-secondary "></i>
+                  <Button
+                    size="sm"
+                    variant="outline-light"
+                    className="footer-button rounded-0 py-0 px-2 d-flex justify-content-center align-items-center"
+                    style={{ height: "2em", width: "2em" }}
+                  >
+                    <i className="bi bi-check fs-3 text-secondary "></i>
+                  </Button>
 
                   <small className="text-light fw-light">Autoplay next episode in a series on all devices.</small>
                 </div>
                 <div className="d-flex gap-2 align-items-center">
-                  <i className="bi bi-check fs-3 text-secondary "></i>
+                  <Button
+                    size="sm"
+                    variant="outline-light"
+                    className="footer-button rounded-0 py-0 px-2 d-flex justify-content-center align-items-center"
+                    style={{ height: "2em", width: "2em" }}
+                  >
+                    <i className="bi bi-check fs-3 text-secondary "></i>
+                  </Button>
 
                   <small className="text-light fw-light">Autoplay next episode in a series on all devices.</small>
                 </div>
