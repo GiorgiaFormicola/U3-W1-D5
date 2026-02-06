@@ -54,7 +54,7 @@ class FilmsSection extends Component {
               <Placeholder xs={6} lg={4} className="rounded-pill" />
             </Placeholder>
             <Row className="row-cols-1 row-cols-sm-2 row-cols-lg-3 row-cols-xl-6 mb-4">
-              {Array.from(Array(6).keys()).map((element) => {
+              {Array.from(Array(6).keys()).map(() => {
                 return <SingleFilmPlaceholder></SingleFilmPlaceholder>;
               })}
             </Row>
