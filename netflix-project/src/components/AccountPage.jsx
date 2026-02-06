@@ -5,7 +5,7 @@ import AccountMain from "./AccountMain";
 class AccountPage extends Component {
   render() {
     return (
-      <div className="vh-100" style={{ backgroundColor: "#141414" }}>
+      <div className="vh-100 d-flex flex-column" style={{ backgroundColor: "#141414" }}>
         <AccountNavbar></AccountNavbar>
         <AccountMain></AccountMain>
       </div>

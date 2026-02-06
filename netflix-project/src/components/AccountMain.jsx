@@ -8,7 +8,7 @@ import Button from "react-bootstrap/Button";
 class AccountMain extends Component {
   render() {
     return (
-      <main>
+      <main className="my-auto">
         <Container className="w-50">
           <Row className="border-bottom border-1 border-dark">
             <Col>
@@ -53,12 +53,12 @@ class AccountMain extends Component {
               <div className="pt-3">
                 <p className="text-light text-opacity-75 mb-1">Autoplay controls</p>
                 <div className="d-flex gap-2 align-items-center">
-                  <i className="bi bi-check fs-3 "></i>
+                  <i className="bi bi-check fs-3 text-secondary "></i>
 
                   <small className="text-light fw-light">Autoplay next episode in a series on all devices.</small>
                 </div>
                 <div className="d-flex gap-2 align-items-center">
-                  <i className="bi bi-check fs-3 "></i>
+                  <i className="bi bi-check fs-3 text-secondary "></i>
 
                   <small className="text-light fw-light">Autoplay next episode in a series on all devices.</small>
                 </div>
