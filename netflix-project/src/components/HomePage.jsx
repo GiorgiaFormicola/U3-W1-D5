@@ -1,7 +1,7 @@
 import { Component } from "react";
-import HomeNavbar from "./components/HomeNavbar";
-import HomeMain from "./components/HomeMain";
-import HomeFooter from "./components/HomeFooter";
+import HomeNavbar from "./HomeNavbar";
+import HomeMain from "./HomeMain";
+import HomeFooter from "./HomeFooter";
 
 class HomePage extends Component {
   render() {
