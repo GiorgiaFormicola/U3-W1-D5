@@ -6,8 +6,8 @@ import AccountPage from "./components/AccountPage";
 
 function App() {
   return (
-    // <HomePage></HomePage>
-    <AccountPage></AccountPage>
+    <HomePage></HomePage>
+    // <AccountPage></AccountPage>
   );
 }
 
