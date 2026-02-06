@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 
-class MyFooter extends Component {
+class HomeFooter extends Component {
   render() {
     return (
       <footer>
@@ -128,4 +128,4 @@ class MyFooter extends Component {
   }
 }
 
-export default MyFooter;
+export default HomeFooter;

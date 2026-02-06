@@ -5,7 +5,7 @@ import Navbar from "react-bootstrap/Navbar";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 
-class MyNavbar extends Component {
+class HomeNavbar extends Component {
   render() {
     return (
       <header>
@@ -41,4 +41,4 @@ class MyNavbar extends Component {
   }
 }
 
-export default MyNavbar;
+export default HomeNavbar;

@@ -1,18 +1,10 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap-icons/font/bootstrap-icons.min.css";
 import "./App.css";
-import MyNavbar from "./components/MyNavbar";
-import MyHomepage from "./components/MyHomepage";
-import MyFooter from "./components/MyFooter";
+import HomePage from "./components/HomePage";
 
 function App() {
-  return (
-    <>
-      <MyNavbar></MyNavbar>
-      <MyHomepage></MyHomepage>
-      <MyFooter></MyFooter>
-    </>
-  );
+  return <HomePage></HomePage>;
 }
 
 export default App;
