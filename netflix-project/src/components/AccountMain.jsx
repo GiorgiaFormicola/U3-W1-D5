@@ -50,21 +50,34 @@ class AccountMain extends Component {
                   <small>EDIT</small>
                 </Button>
               </div>
-              <div className="py-3 border-bottom border-1 border-dark">
+              <div className="pt-3">
                 <p className="text-light text-opacity-75 mb-1">Autoplay controls</p>
                 <div className="d-flex gap-2 align-items-center">
                   <i className="bi bi-check fs-3 "></i>
 
                   <small className="text-light fw-light">Autoplay next episode in a series on all devices.</small>
                 </div>
-                <div>
-                  <i className="bi bi-check fs-3"></i>
-                  <small className="text-light fw-light">Autoplay previews while browsing on all devices.</small>
+                <div className="d-flex gap-2 align-items-center">
+                  <i className="bi bi-check fs-3 "></i>
+
+                  <small className="text-light fw-light">Autoplay next episode in a series on all devices.</small>
                 </div>
               </div>
             </Col>
           </Row>
-          <Row></Row>
+          <Row className="pb-5">
+            <Col className="d-flex gap-3 justify-content-center">
+              <Button size="sm" variant="outline-light" className="footer-button rounded-0 mt-3 px-4 py-1">
+                SAVE
+              </Button>
+              <Button size="sm" variant="outline-light" className="footer-button rounded-0 mt-3 px-4 py-1">
+                CANCEL
+              </Button>
+              <Button size="sm" variant="outline-light" className="footer-button rounded-0 mt-3 px-4 py-1">
+                DELETE PROFILE
+              </Button>
+            </Col>
+          </Row>
         </Container>
       </main>
     );
