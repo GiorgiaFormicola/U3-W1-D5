@@ -4,6 +4,7 @@ import Container from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Dropdown from "react-bootstrap/Dropdown";
+import FilmsSection from "./FilmsSection";
 
 class MyHomepage extends Component {
   render() {
@@ -38,7 +39,11 @@ class MyHomepage extends Component {
             </Col>
           </Row>
         </Container>
-        <Container fluid={true} className="px-4"></Container>
+        <Container fluid={true} className="px-4">
+          <FilmsSection></FilmsSection>
+          <FilmsSection></FilmsSection>
+          <FilmsSection></FilmsSection>
+        </Container>
       </>
     );
   }
